@@ -33,7 +33,7 @@ public class SGScanditPackage implements ReactPackage {
         );
     }
 
-    @Override
+    // RN 0.47 deprecated
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
